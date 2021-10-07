@@ -5,4 +5,4 @@ COPY src/ /usr/src/app/
 
 EXPOSE 8081
 
-CMD ["ruby","/app/details.rb","8081"]
+CMD ["ruby","/usr/src/app/details.rb","8081"]
